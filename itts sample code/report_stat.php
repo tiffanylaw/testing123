@@ -4,4 +4,7 @@
 	$cmd = 'https://61.91.4.237:22243/api/stat.json/?data='.$data_base64_encode;
 	$result = file_get_contents($cmd);
 	echo $result;
+
+
+	echo "hahahah";
 ?>
